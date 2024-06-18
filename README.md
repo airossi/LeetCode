@@ -15,4 +15,9 @@ For each of these folders we will have all the problems already resolved, in som
 
 Each solution is including Time and Space complexity in Big O notation.
 
+## Problems Solved So Far
+
+### Easy
+1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
+
 
