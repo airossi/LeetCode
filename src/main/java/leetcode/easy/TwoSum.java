@@ -41,16 +41,16 @@ public class TwoSum {
 
     // Time Complexity: O(n)
     // Space Complexity: O(n)
-    private static int[] getTwoSumIndexes(int[] input, int target) {
+    private static int[] getTwoSumIndexes(int[] nums, int target) {
         int[] indexes = new int[2];
 
         Map<Integer,Integer> aux = new HashMap<>();
-        for(int i=0; i<input.length ; i++)
-            aux.put(target - input[i], i);
+        for(int i=0; i<nums.length ; i++)
+            aux.put(target - nums[i], i);
 
-        for(int j=0; j<input.length ; j++){
-            if(aux.containsKey(input[j]) && j!=aux.get(input[j])) {
-                indexes[0] = aux.get(input[j]);
+        for(int j=0; j<nums.length ; j++){
+            if(aux.containsKey(nums[j]) && j!=aux.get(nums[j])) {
+                indexes[0] = aux.get(nums[j]);
                 indexes[1] = j;
             }
         }
