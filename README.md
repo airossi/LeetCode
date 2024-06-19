@@ -19,5 +19,5 @@ Each solution is including Time and Space complexity in Big O notation.
 
 ### Easy
 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
-
+58. [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
