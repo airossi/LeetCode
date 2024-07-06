@@ -20,6 +20,7 @@ Each solution is including Time and Space complexity in Big O notation.
 ### Easy
 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
 9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+14. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 58. [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 83. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 136. [Single Number](https://leetcode.com/problems/single-number/description/)
