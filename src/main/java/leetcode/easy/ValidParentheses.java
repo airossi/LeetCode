@@ -3,15 +3,12 @@ package leetcode.easy;
 import java.util.Stack;
 
 public class ValidParentheses {
-    public static void main(String[] args) {
-        System.out.println("First Example - Is valid string: " + isValid("()"));
-        System.out.println("Second Example - Is valid string: " + isValid("()[]{}"));
-        System.out.println("Third Example - Is valid string: " + isValid("(]"));
-    }
+
+    public ValidParentheses(){}
 
     // Time Complexity: O(n)
     // Space Complexity: O(n)
-    private static boolean isValid(String s) {
+    public boolean isValid(String s) {
         if (s.isEmpty() || s.length() == 1)
             return false;
         Stack<Character> currentSymbols = new Stack<>();

@@ -1,17 +1,12 @@
 package leetcode.easy;
 
 public class LongestCommonPrefix {
-    public static void main(String[] args) {
-        String firstExampleOutput = longestCommonPrefix(new String[]{"flower","flow","flight"});
-        System.out.println("First Example - Longest common prefix is: " + firstExampleOutput);
 
-        String secondExampleOutput = longestCommonPrefix(new String[]{"dog","racecar","car"});
-        System.out.println("Second Example - Longest common prefix is: " + secondExampleOutput);
-    }
+    public LongestCommonPrefix() {}
 
     // Time Complexity: O(nm) - Being n number of strings and m the length of the string
     // Space Complexity: O(1)
-    private static String longestCommonPrefix(String[] strs) {
+    public String longestCommonPrefix(String[] strs) {
         if(strs.length == 0) return "";
         if(strs.length == 1) return strs[0];
 
@@ -26,7 +21,7 @@ public class LongestCommonPrefix {
 
     }
 
-    private static String getCommonPrefix(String first, String second) {
+    private String getCommonPrefix(String first, String second) {
         int i = 0;
         StringBuilder partialPrefix = new StringBuilder();
         while(i < first.length() && i < second.length()) {
