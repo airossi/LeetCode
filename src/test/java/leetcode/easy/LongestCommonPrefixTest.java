@@ -10,20 +10,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(MockitoExtension.class)
 class LongestCommonPrefixTest {
 
-    private LongestCommonPrefix longestCommonPrefix;
+    private LongestCommonPrefix underTest;
 
     @BeforeEach
     void setup() {
-        longestCommonPrefix = new LongestCommonPrefix();
+        underTest = new LongestCommonPrefix();
     }
 
     @Test
     void firstTest(){
-        assertEquals("fl", longestCommonPrefix.longestCommonPrefix(new String[]{"flower","flow","flight"}));
+        assertEquals("fl", underTest.longestCommonPrefix(new String[]{"flower","flow","flight"}));
     }
 
     @Test
     void secondTest(){
-        assertEquals("", longestCommonPrefix.longestCommonPrefix(new String[]{"dog","racecar","car"}));
+        assertEquals("", underTest.longestCommonPrefix(new String[]{"dog","racecar","car"}));
     }
 }

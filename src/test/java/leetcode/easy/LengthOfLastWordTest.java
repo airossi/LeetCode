@@ -10,25 +10,25 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(MockitoExtension.class)
 class LengthOfLastWordTest {
 
-    private LengthOfLastWord lengthOfLastWord;
+    private LengthOfLastWord underTest;
 
     @BeforeEach
     void setup() {
-        lengthOfLastWord = new LengthOfLastWord();
+        underTest = new LengthOfLastWord();
     }
 
     @Test
     void firstTest(){
-        assertEquals(5, lengthOfLastWord.lengthOfLastWord("Hello World"));
+        assertEquals(5, underTest.lengthOfLastWord("Hello World"));
     }
 
     @Test
     void secondTest(){
-        assertEquals(4, lengthOfLastWord.lengthOfLastWord("   fly me   to   the moon  "));
+        assertEquals(4, underTest.lengthOfLastWord("   fly me   to   the moon  "));
     }
 
     @Test
     void thirdTest(){
-        assertEquals(6, lengthOfLastWord.lengthOfLastWord("luffy is still joyboy"));
+        assertEquals(6, underTest.lengthOfLastWord("luffy is still joyboy"));
     }
 }

@@ -11,25 +11,25 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @ExtendWith(MockitoExtension.class)
 class ValidParenthesesTest {
 
-    private ValidParentheses validParentheses;
+    private ValidParentheses underTest;
 
     @BeforeEach
     void setup() {
-        validParentheses = new ValidParentheses();
+        underTest = new ValidParentheses();
     }
 
     @Test
     void firstTest(){
-        assertTrue(validParentheses.isValid("()"));
+        assertTrue(underTest.isValid("()"));
     }
 
     @Test
     void secondTest(){
-        assertTrue(validParentheses.isValid("()[]{}"));
+        assertTrue(underTest.isValid("()[]{}"));
     }
 
     @Test
     void thirdTest(){
-        assertFalse(validParentheses.isValid("(]"));
+        assertFalse(underTest.isValid("(]"));
     }
 }

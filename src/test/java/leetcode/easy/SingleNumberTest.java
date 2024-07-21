@@ -10,25 +10,25 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(MockitoExtension.class)
 class SingleNumberTest {
 
-    private SingleNumber singleNumber;
+    private SingleNumber underTest;
 
     @BeforeEach
     void setup() {
-        singleNumber = new SingleNumber();
+        underTest = new SingleNumber();
     }
 
     @Test
     void firstTest(){
-        assertEquals(1, singleNumber.singleNumber(new int[]{2, 2, 1}));
+        assertEquals(1, underTest.singleNumber(new int[]{2, 2, 1}));
     }
 
     @Test
     void secondTest(){
-        assertEquals(4, singleNumber.singleNumber(new int[]{4, 2, 1, 2, 1}));
+        assertEquals(4, underTest.singleNumber(new int[]{4, 2, 1, 2, 1}));
     }
 
     @Test
     void thirdTest(){
-        assertEquals(1, singleNumber.singleNumber(new int[]{1}));
+        assertEquals(1, underTest.singleNumber(new int[]{1}));
     }
 }

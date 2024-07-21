@@ -10,25 +10,25 @@ import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith(MockitoExtension.class)
 class PalindromeNumberTest {
 
-    private PalindromeNumber palindromeNumber;
+    private PalindromeNumber underTest;
 
     @BeforeEach
     void setup() {
-        palindromeNumber = new PalindromeNumber();
+        underTest = new PalindromeNumber();
     }
 
     @Test
     void firstTest(){
-        assertTrue( palindromeNumber.isPalindrome(121));
+        assertTrue( underTest.isPalindrome(121));
     }
 
     @Test
     void secondTest(){
-        assertFalse(palindromeNumber.isPalindrome(-121));
+        assertFalse(underTest.isPalindrome(-121));
     }
 
     @Test
     void thirdTest(){
-        assertTrue(palindromeNumber.isPalindrome(1000000001));
+        assertTrue(underTest.isPalindrome(1000000001));
     }
 }
