@@ -24,5 +24,6 @@ Each solution is including Time and Space complexity in Big O notation.
 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 58. [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
+66. [Plus One](https://leetcode.com/problems/plus-one/)
 83. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 136. [Single Number](https://leetcode.com/problems/single-number/description/)
