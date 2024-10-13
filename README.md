@@ -30,6 +30,8 @@ Each solution is including Time and Space complexity in Big O notation.
 
 27 - [Remove Element](https://leetcode.com/problems/remove-element/description/)
 
+28 - [Find the index of the first occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
+
 58 - [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
 66 - [Plus One](https://leetcode.com/problems/plus-one/)
