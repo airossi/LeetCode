@@ -32,6 +32,8 @@ Each solution is including Time and Space complexity in Big O notation.
 
 28 - [Find the index of the first occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
 
+35 - [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+
 58 - [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
 66 - [Plus One](https://leetcode.com/problems/plus-one/)
