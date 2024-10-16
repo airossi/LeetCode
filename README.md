@@ -42,4 +42,6 @@ Each solution is including Time and Space complexity in Big O notation.
 
 100 - [Same Tree](https://leetcode.com/problems/same-tree/description/)
 
+101 - [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+
 136 - [Single Number](https://leetcode.com/problems/single-number/description/)
