@@ -40,4 +40,6 @@ Each solution is including Time and Space complexity in Big O notation.
 
 83 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
+100 - [Same Tree](https://leetcode.com/problems/same-tree/description/)
+
 136 - [Single Number](https://leetcode.com/problems/single-number/description/)
