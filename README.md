@@ -26,6 +26,8 @@ Each solution is including Time and Space complexity in Big O notation.
 
 20 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
+21 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+
 26 - [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 27 - [Remove Element](https://leetcode.com/problems/remove-element/description/)
