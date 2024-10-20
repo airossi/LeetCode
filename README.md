@@ -48,6 +48,8 @@ Each solution is including Time and Space complexity in Big O notation.
 
 104 - [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
+121 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+
 136 - [Single Number](https://leetcode.com/problems/single-number/description/)
 
 141 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
