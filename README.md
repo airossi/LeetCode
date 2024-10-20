@@ -46,4 +46,6 @@ Each solution is including Time and Space complexity in Big O notation.
 
 101 - [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 
+104 - [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+
 136 - [Single Number](https://leetcode.com/problems/single-number/description/)
