@@ -53,3 +53,5 @@ Each solution is including Time and Space complexity in Big O notation.
 136 - [Single Number](https://leetcode.com/problems/single-number/description/)
 
 141 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+
+205 - [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
