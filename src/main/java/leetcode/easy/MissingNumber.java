@@ -6,7 +6,7 @@ public class MissingNumber {
     }
 
     // Time Complexity: O(n)
-    // Space Complexity: O(1)
+    // Space Complexity: O(n)
     public int missingNumber(int[] nums) {
         boolean[] existingNumbers = new boolean[nums.length + 1];
         for (int currentNum : nums) {
