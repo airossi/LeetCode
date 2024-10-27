@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 @ExtendWith(MockitoExtension.class)
 class MergeTwoSortedListsTest {
@@ -19,7 +20,7 @@ class MergeTwoSortedListsTest {
     }
 
     @Test
-    void firstTest(){
+    void firstTest() {
         ListNode firstList = new ListNode(
                 1,
                 new ListNode(
@@ -44,7 +45,7 @@ class MergeTwoSortedListsTest {
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         ListNode response = underTest.mergeTwoLists(null, null);
         assertNull(response);
     }

@@ -19,17 +19,17 @@ class ValidParenthesesTest {
     }
 
     @Test
-    void firstTest(){
+    void firstTest() {
         assertTrue(underTest.isValid("()"));
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         assertTrue(underTest.isValid("()[]{}"));
     }
 
     @Test
-    void thirdTest(){
+    void thirdTest() {
         assertFalse(underTest.isValid("(]"));
     }
 }

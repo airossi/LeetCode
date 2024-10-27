@@ -18,17 +18,17 @@ class SingleNumberTest {
     }
 
     @Test
-    void firstTest(){
+    void firstTest() {
         assertEquals(1, underTest.singleNumber(new int[]{2, 2, 1}));
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         assertEquals(4, underTest.singleNumber(new int[]{4, 2, 1, 2, 1}));
     }
 
     @Test
-    void thirdTest(){
+    void thirdTest() {
         assertEquals(1, underTest.singleNumber(new int[]{1}));
     }
 }

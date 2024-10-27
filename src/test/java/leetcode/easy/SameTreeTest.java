@@ -22,14 +22,14 @@ class SameTreeTest {
     @Test
     void firstTest() {
         assertTrue(underTest.isSameTree(
-                new TreeNode(
-                        1,
-                        new TreeNode(2),
-                        new TreeNode(3)
-                ),
-                new TreeNode(1,
-                        new TreeNode(2),
-                        new TreeNode(3))
+                        new TreeNode(
+                                1,
+                                new TreeNode(2),
+                                new TreeNode(3)
+                        ),
+                        new TreeNode(1,
+                                new TreeNode(2),
+                                new TreeNode(3))
                 )
         );
     }

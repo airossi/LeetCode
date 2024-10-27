@@ -18,13 +18,13 @@ class SearchInsertPositionTest {
     }
 
     @Test
-    void firstTest(){
-        assertEquals(2, underTest.searchInsert(new int[]{1,3,5,6}, 5));
+    void firstTest() {
+        assertEquals(2, underTest.searchInsert(new int[]{1, 3, 5, 6}, 5));
     }
 
     @Test
-    void secondTest(){
-        assertEquals(1, underTest.searchInsert(new int[]{1,3,5, 6}, 2));
+    void secondTest() {
+        assertEquals(1, underTest.searchInsert(new int[]{1, 3, 5, 6}, 2));
     }
 
     @Test

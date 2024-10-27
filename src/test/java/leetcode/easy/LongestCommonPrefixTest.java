@@ -18,12 +18,12 @@ class LongestCommonPrefixTest {
     }
 
     @Test
-    void firstTest(){
-        assertEquals("fl", underTest.longestCommonPrefix(new String[]{"flower","flow","flight"}));
+    void firstTest() {
+        assertEquals("fl", underTest.longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
     }
 
     @Test
-    void secondTest(){
-        assertEquals("", underTest.longestCommonPrefix(new String[]{"dog","racecar","car"}));
+    void secondTest() {
+        assertEquals("", underTest.longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
     }
 }

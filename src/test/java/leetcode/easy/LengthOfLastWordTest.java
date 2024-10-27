@@ -18,17 +18,17 @@ class LengthOfLastWordTest {
     }
 
     @Test
-    void firstTest(){
+    void firstTest() {
         assertEquals(5, underTest.lengthOfLastWord("Hello World"));
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         assertEquals(4, underTest.lengthOfLastWord("   fly me   to   the moon  "));
     }
 
     @Test
-    void thirdTest(){
+    void thirdTest() {
         assertEquals(6, underTest.lengthOfLastWord("luffy is still joyboy"));
     }
 }

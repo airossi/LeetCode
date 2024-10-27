@@ -19,7 +19,7 @@ class RemoveDuplicatesSortedListTest {
     }
 
     @Test
-    void firstTest(){
+    void firstTest() {
         ListNode firstList = new ListNode(
                 1,
                 new ListNode(
@@ -37,7 +37,7 @@ class RemoveDuplicatesSortedListTest {
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         ListNode secondList = new ListNode(
                 1,
                 new ListNode(
