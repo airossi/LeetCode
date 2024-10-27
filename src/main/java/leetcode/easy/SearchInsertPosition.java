@@ -2,7 +2,8 @@ package leetcode.easy;
 
 public class SearchInsertPosition {
 
-    public SearchInsertPosition() {}
+    public SearchInsertPosition() {
+    }
 
     // Time Complexity: O(log n)
     // Space Complexity: O(1)
@@ -11,7 +12,7 @@ public class SearchInsertPosition {
         int end = nums.length - 1;
 
         while (start <= end) {
-            int mid = start  + (end - start) / 2;
+            int mid = start + (end - start) / 2;
             if (nums[mid] == target) return mid;
             else if (nums[mid] > target) end = mid - 1;
             else start = mid + 1;

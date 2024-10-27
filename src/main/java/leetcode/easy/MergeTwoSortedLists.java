@@ -4,7 +4,8 @@ import leetcode.models.ListNode;
 
 public class MergeTwoSortedLists {
 
-    public MergeTwoSortedLists(){}
+    public MergeTwoSortedLists() {
+    }
 
     // Time Complexity: O(n + m) -- n size of the list1 and m size of the list2
     // Space Complexity: O(n + m)

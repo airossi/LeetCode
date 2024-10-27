@@ -2,7 +2,8 @@ package leetcode.easy;
 
 public class PlusOne {
 
-    public PlusOne() {}
+    public PlusOne() {
+    }
 
     // Time Complexity: O(n)
     // Space Complexity: O(1)
@@ -25,12 +26,12 @@ public class PlusOne {
             int[] expandedArray = new int[digits.length + 1];
             expandedArray[0] = 1;
             int indexExpandedArray = 1;
-            for(int digit : digits) {
+            for (int digit : digits) {
                 expandedArray[indexExpandedArray] = digit;
                 indexExpandedArray++;
             }
             return expandedArray;
         }
         return digits;
-        }
+    }
 }

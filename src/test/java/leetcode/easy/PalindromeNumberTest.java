@@ -5,7 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @ExtendWith(MockitoExtension.class)
 class PalindromeNumberTest {
@@ -18,17 +19,17 @@ class PalindromeNumberTest {
     }
 
     @Test
-    void firstTest(){
-        assertTrue( underTest.isPalindrome(121));
+    void firstTest() {
+        assertTrue(underTest.isPalindrome(121));
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         assertFalse(underTest.isPalindrome(-121));
     }
 
     @Test
-    void thirdTest(){
+    void thirdTest() {
         assertTrue(underTest.isPalindrome(1000000001));
     }
 }

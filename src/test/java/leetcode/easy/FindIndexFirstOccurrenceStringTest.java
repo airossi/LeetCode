@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(MockitoExtension.class)
 class FindIndexFirstOccurrenceStringTest {
@@ -18,12 +18,12 @@ class FindIndexFirstOccurrenceStringTest {
     }
 
     @Test
-    void firstTest(){
+    void firstTest() {
         assertEquals(0, underTest.strStr("sadbutsad", "sad"));
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         assertEquals(-1, underTest.strStr("leetcode", "leeto"));
     }
 }

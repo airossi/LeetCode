@@ -4,7 +4,8 @@ import leetcode.models.TreeNode;
 
 public class MaximumDepthBinaryTree {
 
-    public MaximumDepthBinaryTree() {}
+    public MaximumDepthBinaryTree() {
+    }
 
     // Time Complexity: O(n)
     // Space Complexity: O(n)

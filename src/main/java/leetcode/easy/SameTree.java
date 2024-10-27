@@ -4,7 +4,8 @@ import leetcode.models.TreeNode;
 
 public class SameTree {
 
-    public SameTree() {}
+    public SameTree() {
+    }
 
     // Time Complexity: O(n)
     // Space Complexity: O(1)

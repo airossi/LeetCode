@@ -4,7 +4,8 @@ import leetcode.models.TreeNode;
 
 public class SymmetricTree {
 
-    public SymmetricTree() {}
+    public SymmetricTree() {
+    }
 
     // Time Complexity: O(n)
     // Space Complexity: O(1)

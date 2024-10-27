@@ -2,7 +2,8 @@ package leetcode.easy;
 
 public class FindIndexFirstOccurrenceString {
 
-    public FindIndexFirstOccurrenceString(){}
+    public FindIndexFirstOccurrenceString() {
+    }
 
     // Time Complexity: O(n^2)
     // Space Complexity: O(n)
@@ -10,9 +11,9 @@ public class FindIndexFirstOccurrenceString {
         char[] haystackChars = haystack.toCharArray();
         char[] needleChars = needle.toCharArray();
 
-        for(int i=0 ; i<haystackChars.length ; i++) {
+        for (int i = 0; i < haystackChars.length; i++) {
             if (haystackChars[i] == needleChars[0]) {
-                if(foundMatch(haystackChars, needleChars, i))
+                if (foundMatch(haystackChars, needleChars, i))
                     return i;
             }
         }
@@ -20,10 +21,10 @@ public class FindIndexFirstOccurrenceString {
     }
 
     private boolean foundMatch(char[] haystackChars,
-                               char[] needleChars, int originIndex){
+                               char[] needleChars, int originIndex) {
         int i = 0;
-        while (i<needleChars.length && originIndex<haystackChars.length) {
-            if(needleChars[i]!=haystackChars[originIndex])
+        while (i < needleChars.length && originIndex < haystackChars.length) {
+            if (needleChars[i] != haystackChars[originIndex])
                 return false;
             i++;
             originIndex++;

@@ -2,7 +2,8 @@ package leetcode.easy;
 
 public class RemoveElement {
 
-    public RemoveElement() {}
+    public RemoveElement() {
+    }
 
     // Time Complexity: O(n)
     // Space Complexity: O(1)

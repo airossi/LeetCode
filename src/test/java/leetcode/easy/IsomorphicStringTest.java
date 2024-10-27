@@ -5,7 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @ExtendWith(MockitoExtension.class)
 class IsomorphicStringTest {
@@ -18,17 +19,17 @@ class IsomorphicStringTest {
     }
 
     @Test
-    void firstTest(){
+    void firstTest() {
         assertTrue(underTest.isIsomorphic("egg", "add"));
     }
 
     @Test
-    void secondTest(){
+    void secondTest() {
         assertFalse(underTest.isIsomorphic("foo", "bar"));
     }
 
     @Test
-    void thirdTest(){
+    void thirdTest() {
         assertTrue(underTest.isIsomorphic("paper", "title"));
     }
 }

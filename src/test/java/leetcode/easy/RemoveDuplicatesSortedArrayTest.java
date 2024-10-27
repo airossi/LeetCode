@@ -18,12 +18,12 @@ class RemoveDuplicatesSortedArrayTest {
     }
 
     @Test
-    void firstTest(){
-        assertEquals(2, underTest.removeDuplicates(new int[]{1,1,2}));
+    void firstTest() {
+        assertEquals(2, underTest.removeDuplicates(new int[]{1, 1, 2}));
     }
 
     @Test
-    void secondTest(){
-        assertEquals(5, underTest.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+    void secondTest() {
+        assertEquals(5, underTest.removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}));
     }
 }
